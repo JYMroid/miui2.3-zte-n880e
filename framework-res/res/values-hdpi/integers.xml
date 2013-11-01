@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="lockscreen_prompt_textsize">20</integer>
+    <integer name="lockscreen_prompt_circleR">65</integer>
+</resources>

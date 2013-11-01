@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Kerja</item>
+        <item>lain-lain</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Kerja</item>
+        <item>lain-lain</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Kerja</item>
+        <item>Faks Pejabat</item>
+        <item>Faks Rumah</item>
+        <item>Alat kelui</item>
+        <item>lain-lain</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Kerja</item>
+        <item>lain-lain</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Kerja</item>
+        <item>lain-lain</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="typeb_weathers">
+        <item>Sunny</item>
+        <item>mendung</item>
+        <item>Mendung</item>
+        <item>pancuran</item>
+        <item>pancuran bergemuruh</item>
+        <item>Pancuran bergemuruh dengan batu hujan es</item>
+        <item>Hujan beku</item>
+        <item>Hujan Gerimis</item>
+        <item>hujan sederhana</item>
+        <item>hujan lebat</item>
+        <item>hujan lebat</item>
+        <item>Ribut salji</item>
+        <item>Ribut salji lebat</item>
+        <item>Pancuran salji</item>
+        <item>Salji cahaya</item>
+        <item>Salji sederhana</item>
+        <item>Salji tebal</item>
+        <item>Ribut salji</item>
+        <item>Kabut</item>
+        <item>Hujan sejuk</item>
+        <item>Pasir Kecil</item>
+        <item>Hujan Gerimis-sederhana hujan</item>
+        <item>Sederhana hujan-Berat hujan</item>
+        <item>Berat hujan-hujan lebat</item>
+        <item>Hujan lebat hujan-Berat</item>
+        <item>Lebat hujan lebat-Tambahan berat hujan</item>
+        <item>Light sederhana salji salji</item>
+        <item>Berat salji salji sederhana</item>
+        <item>Salji ribut salji yang berat</item>
+        <item>debu</item>
+        <item>pasir</item>
+        <item>kukuh badai pasir</item>
+        <item>badai</item>
+        <item>Whirlwind</item>
+        <item>Tiupan salji</item>
+        <item>kabut cahaya</item>
+        <item>Muat semula</item>
+    </string-array>
+</resources>

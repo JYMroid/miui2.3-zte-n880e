@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobilization>
+    <mobilization id="CHINA MOBILE">China Mobile</mobilization>
+    <mobilization id="China Unicom">China Unicom</mobilization>
+    <mobilization id="CHN-UNICOM">China Unicom</mobilization>
+    <mobilization id="China Telecom">China Telecom</mobilization>
+    <mobilization id="CMCC">China Mobile</mobilization>
+    <mobilization id="TW Mobile">TW Mobile</mobilization>
+    <mobilization id="Far EasTone">Far EasTone</mobilization>
+    <mobilization id="FET">Far EasTone</mobilization>
+    <mobilization id="Chunghwa Telecom">Chunghwa Telecom</mobilization>
+    <mobilization id="CHT">CHT</mobilization>
+</mobilization>
