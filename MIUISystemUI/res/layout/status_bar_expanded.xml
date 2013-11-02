@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ExpandedView android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/expanded_header" android:background="@drawable/date_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.DateView android:textAppearance="@miui:style/TextAppearance.StatusBar.EventContent.Title" android:gravity="left|center" android:id="@id/date" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/clear_all_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clear_notifications" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/toggle_settings_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toggle_settings" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/expended_notifications" layout="@layout/status_bar_expanded_notifications" />
+        <ViewStub android:id="@id/expended_toggles" android:layout="@layout/status_bar_expanded_toggles" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.android.systemui.statusbar.ExpandedView>

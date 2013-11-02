@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.StatusBarView android:background="@drawable/statusbar_background" android:focusable="true" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/battery_indicator_charging" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_indicator_charging" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/icons" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.CarrierLabel android:textAppearance="@android:style/TextAppearance.StatusBar.Icon" android:gravity="left|center" android:id="@id/carrier" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+	<LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.android.systemui.statusbar.IconMerger android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notificationIcons" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <com.android.systemui.statusbar.Clock android:textAppearance="@android:style/TextAppearance.StatusBar.Icon" android:gravity="left|center" android:id="@id/clock" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ticker" android:paddingLeft="6.0dip" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageSwitcher android:id="@id/tickerIcon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip">
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        </ImageSwitcher>
+        <com.android.systemui.statusbar.TickerView android:id="@id/tickerText" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@miui:style/TextAppearance.StatusBar.Ticker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@miui:style/TextAppearance.StatusBar.Ticker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </com.android.systemui.statusbar.TickerView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/returnToIncallScreen" android:background="@drawable/status_bar_green_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/callStateIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_bar_ic_return_to_incall_screen_normal" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.StatusBar.Ticker" android:textColor="@miui:color/status_bar_textColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/return_to_incall_screen" android:singleLine="true" android:layout_weight="1.0" />
+        <Chronometer android:textAppearance="@miui:style/TextAppearance.StatusBar.Ticker" android:textColor="@miui:color/status_bar_textColor" android:id="@id/callTimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" />
+    </LinearLayout>
+</com.android.systemui.statusbar.StatusBarView>

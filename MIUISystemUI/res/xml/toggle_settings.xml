@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/status_bar_toggle_settings" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/status_bar_toggle_style">
+        <com.android.systemui.toggles.ToggleStylePreference android:persistent="false" android:title="@string/status_bar_toggle_style" android:key="status_bar_toggle_style" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <PreferenceScreen android:title="@string/status_bar_toggle_arrangement" android:key="status_bar_toggle_arrangement">
+            <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.toggles.ToggleArrangement" />
+        </PreferenceScreen>
+        <ListPreference android:persistent="false" android:entries="@array/battery_indicator_style_entries" android:title="@string/battery_indicator_style" android:key="battery_indicator_style" android:entryValues="@array/battery_indicator_style_values" />
+        <ListPreference android:entries="@array/usb_connection_mode_entries" android:title="@string/default_usb_mode" android:key="usb_mode" android:entryValues="@array/usb_connection_mode_values" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/expandable_under_fullscreen" android:key="expandable_under_fullscreen" android:summary="@string/expandable_under_fullscreen_summary" />
+        <CheckBoxPreference android:title="@string/enable_back_long_press" android:key="enable_back_long_press" android:disableDependentsState="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

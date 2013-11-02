@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_header_text_color">#ff969696</color>
+    <color name="notification_number_text_color">#ff000000</color>
+    <color name="status_bar_background_transparent">#66000000</color>
+    <color name="status_bar_textColor">@miui:color/status_bar_textColor</color>
+    <color name="status_bar_textColor_alternative">#ff61656e</color>
+    <color name="tab_lable_color_p">#ffee7d05</color>
+    <color name="tab_lable_color_n">#ff645750</color>
+</resources>

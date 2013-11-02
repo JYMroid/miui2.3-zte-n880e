@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_edge_ignore">5.0dip</dimen>
+    <dimen name="close_drag_handle_shadow_height">8.399994dip</dimen>
+    <dimen name="notification_item_divider_height">-1.6999817dip</dimen>
+    <dimen name="notification_height">64.0dip</dimen>
+    <dimen name="notification_icon_size">@miui:dimen/notification_icon_size</dimen>
+</resources>

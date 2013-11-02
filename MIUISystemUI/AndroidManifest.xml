@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.system" android:process="system" android:versionCode="10" android:versionName="2.3.7" package="com.android.systemui"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <application android:label="@string/app_label" android:icon="@drawable/ic_app" android:allowClearUserData="false" android:persistent="true">
+        <service android:name=".statusbar.StatusBarService" android:exported="false" />
+        <activity android:label="@string/status_bar_toggle_settings" android:name=".toggles.ToggleSettings" android:clearTaskOnLaunch="true" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@miui:style/Theme" android:label="@string/status_bar_toggle_arrangement" android:name=".toggles.ToggleArrangement" android:clearTaskOnLaunch="true" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".usb.UsbStorageActivity" android:excludeFromRecents="true" />
+        <activity android:theme="@miui:style/Theme.Dialog.Alert" android:name="com.android.internal.app.ExternalMediaFormatActivity" android:excludeFromRecents="true" />
+        <activity android:theme="@miui:style/Theme.Dialog.Alert" android:name=".usb.UsbModeSelection" android:excludeFromRecents="true" />
+        <activity android:theme="@miui:style/Theme.Dialog.Alert" android:name=".usb.UsbConfirmActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@miui:style/Theme.Dialog.Alert" android:name=".usb.UsbPermissionActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@miui:style/Theme.Dialog.Alert" android:name=".usb.UsbResolverActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@miui:style/Theme.Dialog.Alert" android:name=".usb.UsbAccessoryUriActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+    </application>
+</manifest>
