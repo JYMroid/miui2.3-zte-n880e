@@ -62,7 +62,7 @@ local-zip-misc:
 	@echo Replace superuser.apk
 	cp other/su $(ZIP_DIR)/system/xbin/su
 	cp other/Superuser.apk $(ZIP_DIR)/system/app/
-	cp other/build.prop $(ZIP_DIR)/system/bin/
+	cp other/build.prop $(ZIP_DIR)/system/
 
 
 local-test:
