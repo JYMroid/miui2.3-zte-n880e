@@ -1,5 +1,5 @@
 #
-# Makefile for i9100
+# Makefile for n880e
 #
 
 # The out path for jars and apks from MIUI
@@ -14,8 +14,8 @@ local-zip-file     := stockrom.zip
 local-out-zip-file := ZTE-N880E_2.3_miui-Hundan.zip
 
 # All apps from original ZIP, but has smali files chanded
-local-modified-apps := MediaProvider Settings TaskManager SoundRecorder NumberLocator Phone \
-FmRadio CallFilter Gallery3D
+local-modified-apps := MediaProvider Settings NumberLocator Phone \
+
 
 local-miui-modified-apps := Launcher2 ContactsProvider TelephonyProvider
  
@@ -56,10 +56,8 @@ local-zip-misc:
 	cp other/apks/CallFilter.apk $(ZIP_DIR)/system/app/
 	cp other/apks/FmRadio.apk $(ZIP_DIR)/system/app/
 	cp other/apks/Gallery3D.apk $(ZIP_DIR)/system/app/
-	cp other/apks/MediaProvider.apk $(ZIP_DIR)/system/app/
 	cp other/apks/SoundRecorder.apk $(ZIP_DIR)/system/app/
 	cp other/apks/TaskManager.apk $(ZIP_DIR)/system/app/
-	cp other/apks/TelephonyProvider.apk $(ZIP_DIR)/system/app/
 	cp other/apks/AicBootFix.apk $(ZIP_DIR)/system/app/
 	@echo Replace superuser.apk
 	cp other/su $(ZIP_DIR)/system/xbin/su
