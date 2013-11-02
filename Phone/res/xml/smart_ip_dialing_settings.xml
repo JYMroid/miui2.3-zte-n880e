@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/telecom_smart_ip_dialing_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:maxLength="10" android:title="@string/telecom_area_code_title" android:key="button_area_code_key" android:summary="@string/telecom_area_code_summary" android:dialogTitle="@string/dlg_title_telecom_area_code" android:inputType="number" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:maxLength="10" android:title="@string/telecom_set_ip_number_title" android:key="button_set_ip_number_key" android:summary="@string/telecom_set_ip_number_summary" android:dialogTitle="@string/dlg_title_telecom_set_ip_number" android:inputType="number" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/telecom_smart_ip_dial_switch_title" android:key="button_smart_ip_dial_switch_key" android:summary="@string/telecom_smart_ip_dial_switch_summary_off" />
+</PreferenceScreen>

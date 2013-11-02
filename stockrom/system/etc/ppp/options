@@ -1,0 +1,12 @@
+-d
+-detach
+115200
+noccp
+nocrtscts
+mtu 1400
+mru 1400
+usepeerdns
+#noipdefault
+#defaultroute
+0.0.0.0:0.0.0.0
+hide-password

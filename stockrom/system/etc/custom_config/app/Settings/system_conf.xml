@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+    <system key="LOCATION_DISPLAY_ENABLED"
+         value="1"
+    />
+    <system key="SMART_IP_DIAL_ENABLED"
+         value="1"
+    />
+</settings>

@@ -1,0 +1,11 @@
+<customization version="1.00">
+	<category name="system">
+		<module name="language">
+			<function>
+				<set name="single">
+					<item name="total_list">zh_CN;en_US;zh_TW;</item>
+				</set>
+			</function>
+		</module>
+	</category>
+</customization>

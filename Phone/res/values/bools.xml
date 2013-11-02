@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ignore_sim_network_locked_events">false</bool>
+    <bool name="ignore_perso_locked_events">false</bool>
+    <bool name="sim_network_unlock_allow_dismiss">true</bool>
+    <bool name="icc_perso_unlock_allow_dismiss">true</bool>
+    <bool name="allow_incoming_call_touch_ui">true</bool>
+    <bool name="allow_in_call_touch_ui">true</bool>
+    <bool name="world_phone">true</bool>
+    <bool name="config_enable_dialer_key_vibration">true</bool>
+    <bool name="tty_enabled">false</bool>
+    <bool name="hac_enabled">false</bool>
+    <bool name="dtmf_type_enabled">false</bool>
+    <bool name="auto_retry_enabled">false</bool>
+    <bool name="allow_local_dtmf_tones">true</bool>
+    <bool name="allow_back_key_to_reject_incoming_call">false</bool>
+    <bool name="config_show_onscreen_dial_button">true</bool>
+    <bool name="send_mic_mute_to_AudioManager">true</bool>
+    <bool name="has_in_call_noise_suppression">false</bool>
+    <bool name="csp_enabled">true</bool>
+    <bool name="config_voice_privacy_disable">true</bool>
+    <bool name="enbale_call_connected_vibrate">true</bool>
+    <bool name="call_record_enabled">true</bool>
+    <bool name="in_call_screen_land_orientation">false</bool>
+    <bool name="incall_touch_ui_no_proximity_sensor">false</bool>
+    <bool name="caller_number_display">true</bool>
+    <bool name="config_CDMA_phone">true</bool>
+    <bool name="config_cdma_callforward">true</bool>
+    <bool name="config_cdma_callwaiting">true</bool>
+    <bool name="config_cdma_hidecallernumber">true</bool>
+    <bool name="config_cdma_pluscode">true</bool>
+    <bool name="config_phone_enable_sip_call">true</bool>
+    <bool name="config_phone_voicemail_disabled">true</bool>
+    <bool name="config_phone_speed_dail_enabled">true</bool>
+    <bool name="config_phone_ip_call_dial_enabled">false</bool>
+    <bool name="config_phone_call_barring_enabled">false</bool>
+</resources>

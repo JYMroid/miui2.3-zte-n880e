@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="0.8" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/CallNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="28.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/callmark1" android:background="@drawable/btn_call" android:focusableInTouchMode="false" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/place_a_call1" android:soundEffectsEnabled="false" />
+        <Button android:textSize="28.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/callmark2" android:background="@drawable/btn_call" android:focusableInTouchMode="false" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/place_a_call2" android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/callcancel" android:background="@drawable/btn_call_cancel" android:focusableInTouchMode="false" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/cancel_call" android:soundEffectsEnabled="false" />
+    </LinearLayout>
+</LinearLayout>

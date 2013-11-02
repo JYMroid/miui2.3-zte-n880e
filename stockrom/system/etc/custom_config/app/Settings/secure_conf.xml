@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+    <secure key="mobile_data"
+         value="1"
+    />
+	<!--<secure key="default_input_method"
+         value="com.cootek.smartinputv5/.TouchPalIME"
+    />-->
+</settings>

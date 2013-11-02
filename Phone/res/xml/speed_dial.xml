@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_title_sd"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num1" android:key="speed_dial1" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num2" android:key="speed_dial2" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num3" android:key="speed_dial3" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num4" android:key="speed_dial4" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num5" android:key="speed_dial5" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num6" android:key="speed_dial6" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num7" android:key="speed_dial7" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num8" android:key="speed_dial8" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/pref_title_sd_num9" android:key="speed_dial9" android:dialogTitle="@string/dlg_title_sd" phone:confirmMode="confirm" />
+</PreferenceScreen>

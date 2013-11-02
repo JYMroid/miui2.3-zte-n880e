@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transport_types">
+        <item>UDP</item>
+        <item>TCP</item>
+    </string-array>
+    <array name="sip_call_options_entries">
+        <item>@string/sip_call_options_entry_1</item>
+        <item>@string/sip_call_options_entry_2</item>
+        <item>@string/sip_call_options_entry_3</item>
+    </array>
+    <array name="sip_call_options_wifi_only_entries">
+        <item>@string/sip_call_options_wifi_only_entry_1</item>
+        <item>@string/sip_call_options_entry_2</item>
+        <item>@string/sip_call_options_entry_3</item>
+    </array>
+    <array name="sip_call_options_values">
+        <item>@string/sip_always</item>
+        <item>@string/sip_address_only</item>
+        <item>@string/sip_ask_me_each_time</item>
+    </array>
+    <array name="phone_type_values">
+        <item>@string/pstn_phone</item>
+        <item>@string/internet_phone</item>
+    </array>
+    <array name="sip_send_keepalive_options">
+        <item>@string/sip_system_decide</item>
+        <item>@string/sip_always_send_keepalive</item>
+    </array>
+    <array name="sip_send_keepalive_options_entries">
+        <item>@string/sip_system_decide_entries</item>
+        <item>@string/sip_always_send_keepalive_entries</item>
+    </array>
+    <string-array name="clir_display_values">
+        <item>Network default</item>
+        <item>Hide number</item>
+        <item>Show number</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE only</item>
+        <item>Global + LTE</item>
+        <item>GSM/WCDMA/LTE auto</item>
+        <item>CDMA + LTE/EvDo auto</item>
+        <item>Global</item>
+        <item>EvDo only</item>
+        <item>CDMA w/o EvDo</item>
+        <item>CDMA / EvDo auto</item>
+        <item>GSM / WCDMA auto</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_gsm">
+        <item>GSM / WCDMA auto</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_gsm">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_cdma">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_cdma">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (auto mode)</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM/WCDA (WCDMA preferred)</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Home only</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="cdma_system_select_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Home Networks only</item>
+        <item>Affiliated Networks</item>
+        <item>Any Network</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="tty_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="fdn_operation_item_choices">
+        <item>Call</item>
+        <item>Add contact</item>
+        <item>Edit contact</item>
+        <item>Delete contact</item>
+    </string-array>
+    <string-array name="itemaddCountryCode">
+        <item>Outgoing call to Japan</item>
+        <item>Add country code</item>
+        <item>Normal Outgoing Call</item>
+    </string-array>
+    <string-array name="countrycode">
+        <item>81 Japan</item>
+        <item>86 China</item>
+        <item>60 Malaysia</item>
+        <item>62 Indonesia</item>
+        <item>63 Philippines</item>
+        <item>65 Singapore</item>
+        <item>66 Thailand</item>
+        <item>82 Korea</item>
+        <item>850 Republic of Korea</item>
+        <item>852 Hong Kong</item>
+        <item>853 Macao</item>
+        <item>886 Taiwan</item>
+        <item>90 Turkey</item>
+        <item>91 India</item>
+        <item>960 Maldives</item>
+        <item>966 Saudi Arabia</item>
+        <item>965 Kuwait</item>
+        <item>98 Iran</item>
+        <item>971 United Arab Emirates</item>
+        <item>7 Russian</item>
+        <item>30 Greece</item>
+        <item>31 Netherlands</item>
+        <item>32 Belgium</item>
+        <item>33 France</item>
+        <item>34 Spain</item>
+        <item>351 Portugal</item>
+        <item>352 Luxembourg</item>
+        <item>353 Ireland</item>
+        <item>358 Finland</item>
+        <item>359 Bulgarian</item>
+        <item>36 Germany</item>
+        <item>381 Yugoslavia</item>
+        <item>39 Italy</item>
+        <item>40 Romania</item>
+        <item>41 Switzerland</item>
+        <item>423 Liechtenstein</item>
+        <item>43 Austria</item>
+        <item>44 England</item>
+        <item>45 Denmark</item>
+        <item>46 Sweden</item>
+        <item>47 Norway</item>
+        <item>48 Poland</item>
+        <item>420 Czech Republic</item>
+        <item>421 Slovakia</item>
+        <item>389 Slovenia</item>
+        <item>380 Ukraine</item>
+        <item>370 Lithuania</item>
+        <item>371 Latvian</item>
+        <item>372 Estonia</item>
+        <item>373 Moldova</item>
+        <item>994 Azerbaijan</item>
+        <item>20 Egypt</item>
+        <item>212 Morocco</item>
+        <item>213 Algeria</item>
+        <item>216 Tunisia</item>
+        <item>221 Senegal</item>
+        <item>234 Nigeria</item>
+        <item>233 Ghana</item>
+        <item>237 Cameroon</item>
+        <item>252 Somalia</item>
+        <item>254 Kenya</item>
+        <item>1 United States</item>
+        <item>1809 Puerto Rico</item>
+        <item>1876 Jamaica</item>
+        <item>1907 Alaska</item>
+        <item>1787 Puerto Rico</item>
+        <item>502 Guatemala</item>
+        <item>504 Honduras</item>
+        <item>506 Costa Rica</item>
+        <item>505 Nicaragua</item>
+        <item>507 Panama</item>
+        <item>509 Haiti</item>
+        <item>51 Peru</item>
+        <item>52 Mexico</item>
+        <item>53 Cuba</item>
+        <item>54 Argentina</item>
+        <item>55 Brazil</item>
+        <item>56 Chile</item>
+        <item>57 Colombia</item>
+        <item>58 Venezuela</item>
+        <item>591 Bolivia</item>
+        <item>593 Ecuador</item>
+        <item>595 Paraguay</item>
+        <item>598 Uruguay</item>
+        <item>61 Australia</item>
+        <item>64 New Zealand</item>
+        <item>1671 Guam</item>
+        <item>677 Solomon Islands</item>
+    </string-array>
+    <string-array name="cb_language_entries">
+        <item>English</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Spanish</item>
+        <item>All languages</item>
+    </string-array>
+    <string-array name="cb_language_values">
+        <item>1</item>
+        <item>3</item>
+        <item>8</item>
+        <item>4</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="ver_count_entry_text">
+        <item>CDMA network</item>
+        <item>GSM network</item>
+    </string-array>
+    <string-array name="ver_count_entry_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dial_default_network_entries">
+        <item>None</item>
+        <item>CDMA network</item>
+        <item>GSM network</item>
+    </string-array>
+    <string-array name="dial_default_network_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="data_roaming_options">
+        <item>Disable</item>
+        <item>National Roaming only</item>
+        <item>All Network</item>
+    </string-array>
+    <string-array name="data_roaming_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="emergency_number_list">
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>108</item>
+    </string-array>
+</resources>

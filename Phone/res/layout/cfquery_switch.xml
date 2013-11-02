@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/m0_rl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:gravity="center_horizontal" android:id="@id/m0_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/m0_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_below="@id/m0_title">
+        <TextView android:gravity="center_horizontal" android:id="@id/m0_t" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center_horizontal" android:id="@id/m0_t1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center_horizontal" android:id="@id/m0_t2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center_horizontal" android:id="@id/m0_t3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center_horizontal" android:id="@id/m0_t4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:id="@id/m0_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="89.0px" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+</RelativeLayout>

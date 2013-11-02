@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/additional_cdma_call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="button_cf_expand_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CdmaCallForwardOptions" />
+    </PreferenceScreen>
+    <com.android.phone.CdmaCallWaiting android:persistent="false" android:title="@string/labelCW" android:key="button_cw_key" android:summaryOn="@string/sum_cw_enabled" android:summaryOff="@string/sum_cw_disabled" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/cnp" android:key="button_cop_key" android:summary="@string/cnp" />
+    <PreferenceScreen android:title="@string/pref_title_plus_code" android:key="button_plus_key" android:summary="@string/sum_plus_code">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.PlusCodeDialSettings" />
+    </PreferenceScreen>
+</PreferenceScreen>

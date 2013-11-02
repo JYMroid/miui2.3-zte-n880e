@@ -1,0 +1,24 @@
+#! /system/bin/sh
+
+echo "ip up" >> /data/local/logs/ppptunl.log
+
+echo "seprop net.ppp0.dns1 $DNS1" >> /data/local/logs/ppptunl.log
+/system/bin/setprop net.ppp0.dns1 "$DNS1"
+
+
+echo "seprop net.ppp0.dns2 $DNS2" >> /data/local/logs/ppptunl.log
+/system/bin/setprop net.ppp0.dns2 "$DNS2"
+
+
+echo "seprop net.dns1 $DNS1" >> /data/local/logs/ppptunl.log
+/system/bin/setprop net.dns1 "$DNS1"
+
+
+echo "seprop net.dns2 $DNS2" >> /data/local/logs/ppptunl.log
+/system/bin/setprop net.dns2 "$DNS2"
+
+echo "/system/bin/busybox route del default" >> /data/local/logs/ppptunl.log
+/system/bin/busybox route del default
+
+echo "/system/bin/busybox route add default gw $IPLOCAL" >> /data/local/logs/ppptunl.log
+/system/bin/busybox route add default gw $IPLOCAL

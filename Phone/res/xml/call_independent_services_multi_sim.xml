@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/sub_card_first_title" android:key="button_sub_id_00" android:summary="@string/sub_card_first_summary">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/sub_card_second_title" android:key="button_sub_id_01" android:summary="@string/sub_card_second_summary">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/callind_multi_sim" android:key="button_call_independent_serv">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.MultiSimSetting" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/other_settings" android:key="button_misc_category_key" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_retry_mode_title" android:key="button_auto_retry_key" android:summary="@string/auto_retry_mode_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/tty_mode_entries" android:title="@string/tty_mode_option_title" android:key="button_tty_mode_key" android:summary="@string/tty_mode_option_summary" android:entryValues="@array/tty_mode_values" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/hac_mode_title" android:key="button_hac_key" android:summary="@string/hac_mode_summary" />
+    <ListPreference android:entries="@array/dtmf_tone_entries" android:title="@string/dtmf_tones_title" android:key="button_dtmf_settings" android:summary="@string/dtmf_tones_summary" android:entryValues="@array/dtmf_tone_values" />
+    <PreferenceScreen android:title="@string/pref_title_sd" android:key="button_speed_dial_key" android:summary="@string/sum_sd">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.SpeedDialSettings" />
+    </PreferenceScreen>
+    <EditTextPreference android:persistent="true" android:title="@string/set_auto_ums" android:key="button_ums_key" android:dialogTitle="@string/ums" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/callind_multi_sim"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/subone" android:key="button_sub_id_00" android:summary="@string/sub_one">
+        <intent android:action="android.intent.action.MAIN" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/subtwo" android:key="button_sub_id_01" android:summary="@string/sub_two">
+        <intent android:action="android.intent.action.MAIN" />
+    </PreferenceScreen>
+</PreferenceScreen>

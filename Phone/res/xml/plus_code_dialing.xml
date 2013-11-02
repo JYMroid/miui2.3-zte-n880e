@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_title_plus_code"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <CheckBoxPreference android:title="@string/pref_title_north_american_dial" android:key="plus_code_dial_enabled" android:summary="@string/sum_north_american_dial" />
+    <EditTextPreference android:singleLine="true" android:maxLength="20" android:title="@string/pref_title_international_dialing" android:key="plus_code_number" android:summary="@string/sum_set_international_code" android:dependency="plus_code_dial_enabled" android:dialogTitle="@string/dlg_title_international_dialing" android:inputType="number" />
+</PreferenceScreen>

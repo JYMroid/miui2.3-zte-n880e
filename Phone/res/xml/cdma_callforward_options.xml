@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_forwarding_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.CallForwardEditPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/labelTelecomCFU" android:key="button_cfu_key" android:dialogTitle="@string/labelTelecomCFU" android:dialogMessage="@string/messageCFU" phone:confirmMode="activation" phone:serviceClass="voice" phone:reason="unconditional" />
+    <com.android.phone.CallForwardEditPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/labelTelecomCFB" android:key="button_cfb_key" android:dialogTitle="@string/labelTelecomCFB" android:dialogMessage="@string/messageTelecomCFB" phone:confirmMode="activation" phone:serviceClass="voice" phone:reason="busy" />
+    <com.android.phone.CallForwardEditPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/labelTelecomCFNRy" android:key="button_cfnry_key" android:dialogTitle="@string/labelTelecomCFNRy" android:dialogMessage="@string/messageTelecomCFNRy" phone:confirmMode="activation" phone:serviceClass="voice" phone:reason="no_reply" />
+    <com.android.phone.CallForwardEditPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/labelCCFNRc" android:key="button_cfnrc_key" android:dialogTitle="@string/labelCCFNRc" android:dialogMessage="@string/messageCCFNRc" phone:confirmMode="activation" phone:serviceClass="voice" phone:reason="not_reachable" />
+    <com.android.phone.CanelCallForwardPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/labelCFCA" android:key="button_cfca_key" android:dialogTitle="@string/labelCFCA" android:dialogMessage="@string/messageCFCA" phone:confirmMode="activation" phone:serviceClass="voice" phone:reason="cancel_all" />
+</PreferenceScreen>

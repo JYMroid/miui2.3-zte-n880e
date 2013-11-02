@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<library     
+	name="com.zte.ui.lib"
+	file="/system/framework/uilibcd.jar" 
+	/>
+</permissions>

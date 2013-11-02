@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_title_ip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <CheckBoxPreference android:title="@string/pref_title_ip_dial" android:key="ip_dial_enabled" android:summary="@string/sum_ip_dial" />
+    <EditTextPreference android:singleLine="true" android:title="@string/pref_title_ip_number" android:key="ip_number" android:dependency="ip_dial_enabled" android:dialogTitle="@string/dlg_title_ip" android:inputType="number" />
+</PreferenceScreen>

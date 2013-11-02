@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/cb_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <CheckBoxPreference android:title="@string/cb_enabled_title" android:key="cb_enabled" android:summary="@string/cb_enabled_summary" />
+    <ListPreference android:entries="@array/cb_language_entries" android:title="@string/cb_language_title" android:key="cb_language" android:dependency="cb_enabled" android:dialogTitle="@string/cb_language_dialog_title" android:entryValues="@array/cb_language_values" />
+    <PreferenceScreen android:title="@string/add_channel_title" android:key="add_channel" android:dependency="cb_enabled" />
+    <PreferenceCategory android:title="@string/channel_list_title" android:key="channel_list" />
+</PreferenceScreen>

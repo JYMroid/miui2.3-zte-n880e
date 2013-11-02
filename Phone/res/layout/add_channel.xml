@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/channel_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/channel_name" />
+            <EditText android:id="@id/channel_name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/channel_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/channel_number" />
+            <EditText android:id="@id/channel_number_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="4" android:inputType="number" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/enable_channel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enable_number" />
+                <CheckBox android:id="@id/enable_channel_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" style="@android:style/ButtonBar"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:id="@id/cb_save_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cell_save" android:layout_weight="1.0" />
+        <Button android:id="@id/cb_cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cell_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

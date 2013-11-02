@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>网络默认设置</item>
+        <item>隐藏号码</item>
+        <item>显示号码</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>全球</item>
+        <item>仅 EvDo</item>
+        <item>CDMA，无 EvDo 功能</item>
+        <item>CDMA/EvDo 自动选择</item>
+        <item>GSM/WCDMA 自动选择</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+        <item>首选 GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_gsm">
+        <item>GSM/WCDMA 自动选择</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_gsm">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_cdma">
+        <item>CDMA/EvDo</item>
+        <item>仅 CDMA</item>
+        <item>仅 EvDo</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_cdma">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>英语</item>
+        <item>法语</item>
+        <item>西班牙语</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>中文</item>
+        <item>希伯来语</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA（自动模式）</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+        <item>GSM/WCDA（首选 WCDMA）</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>仅本网</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>仅本地网络</item>
+        <item>附属网络</item>
+        <item>任何网络</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>仅 CDMA</item>
+        <item>仅 EvDo</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY 已停用</item>
+        <item>TTY 已满</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>正常</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="fdn_operation_item_choices">
+        <item>呼叫</item>
+        <item>添加联系人</item>
+        <item>编辑联系人</item>
+        <item>删除联系人</item>
+    </string-array>
+    <string-array name="itemaddCountryCode">
+        <item>添加日本国家码呼出</item>
+        <item>添加其他国家码呼出</item>
+        <item>直接呼出</item>
+    </string-array>
+    <string-array name="countrycode">
+        <item>81 日本</item>
+        <item>86 中国</item>
+        <item>60 马来西亚</item>
+        <item>62 印尼</item>
+        <item>63 菲律宾</item>
+        <item>65 新加坡</item>
+        <item>66 泰国</item>
+        <item>82 韩国</item>
+        <item>850 韩国共和国</item>
+        <item>852 香港</item>
+        <item>853 澳门</item>
+        <item>886 台湾</item>
+        <item>90 土耳其</item>
+        <item>91 印度</item>
+        <item>960 马尔代夫</item>
+        <item>966 沙特阿拉伯</item>
+        <item>965 科威特</item>
+        <item>98 伊朗</item>
+        <item>971 阿联酋</item>
+        <item>7 俄罗斯</item>
+        <item>30 希腊</item>
+        <item>31 荷兰</item>
+        <item>32 比利时</item>
+        <item>33 法国</item>
+        <item>34 西班牙</item>
+        <item>351 葡萄牙</item>
+        <item>352 卢森堡</item>
+        <item>353 爱尔兰</item>
+        <item>358 芬兰</item>
+        <item>359 保加利亚</item>
+        <item>36 德国</item>
+        <item>381 南斯拉夫</item>
+        <item>39 意大利</item>
+        <item>40 罗马利亚</item>
+        <item>41 瑞士</item>
+        <item>423 列支敦士登</item>
+        <item>43 奥地利</item>
+        <item>44 英格兰</item>
+        <item>45 丹麦</item>
+        <item>46 瑞典</item>
+        <item>47 挪威</item>
+        <item>48 波兰</item>
+        <item>420 捷克共和国</item>
+        <item>421 斯洛伐克</item>
+        <item>389 斯洛文尼亚</item>
+        <item>380 乌克兰</item>
+        <item>370 立陶宛</item>
+        <item>371 拉脱维利亚</item>
+        <item>372 爱沙尼亚</item>
+        <item>373 摩尔多瓦</item>
+        <item>994 阿塞拜疆</item>
+        <item>20 埃及</item>
+        <item>212 摩洛哥</item>
+        <item>213 阿尔及利亚</item>
+        <item>216 突尼斯</item>
+        <item>221 塞内加尔</item>
+        <item>234 尼日利亚</item>
+        <item>233 加纳</item>
+        <item>237 喀麦隆</item>
+        <item>252 索马里</item>
+        <item>254 肯尼亚</item>
+        <item>1 美国</item>
+        <item>1809 波多黎各</item>
+        <item>1876 牙买加</item>
+        <item>1907 阿拉斯加</item>
+        <item>1787 波多黎各</item>
+        <item>502 危地马拉</item>
+        <item>504 洪都拉斯</item>
+        <item>506 哥斯达黎加</item>
+        <item>505 尼加拉瓜</item>
+        <item>507 巴拿马</item>
+        <item>509 海地</item>
+        <item>51 秘鲁</item>
+        <item>52 墨西哥</item>
+        <item>53 古巴</item>
+        <item>54 阿根廷</item>
+        <item>55 巴西</item>
+        <item>56 智利</item>
+        <item>57 哥伦比亚</item>
+        <item>58 委内瑞拉</item>
+        <item>591 玻利维亚</item>
+        <item>593 厄瓜多尔</item>
+        <item>595 巴拉圭</item>
+        <item>598 乌拉圭</item>
+        <item>61 澳大利亚</item>
+        <item>64 新西兰</item>
+        <item>1671 关岛</item>
+        <item>677 所罗门群岛</item>
+    </string-array>
+    <string-array name="cb_language_entries">
+        <item>英语</item>
+        <item>俄语</item>
+        <item>葡萄牙语</item>
+        <item>西班牙语</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="ver_count_entry_text">
+        <item>CDMA 网络</item>
+        <item>GSM 网络</item>
+    </string-array>
+    <string-array name="dial_default_network_entries">
+        <item>无</item>
+        <item>CDMA 网络</item>
+        <item>GSM 网络</item>
+    </string-array>
+    <string-array name="cb_language_entries_v9_Beeline">
+        <item>英语</item>
+        <item>俄语</item>
+        <item>全部</item>
+    </string-array>
+</resources>

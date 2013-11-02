@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/barry_alloutgoing" android:key="barry_alloutgoing" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/barry_outgoinginter" android:key="barry_outgoinginter" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/barry_outgoingroaming" android:key="barry_outgoingroaming" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/barry_allincoming" android:key="barry_allincoming" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/barry_incomeroaming" android:key="barry_incomeroaming" />
+    <Preference android:title="@string/barry_changepassword" android:key="barry_changepassword" />
+    <PreferenceScreen android:persistent="false" android:title="@string/barry_cancelall" android:key="barry_cancelall" />
+</PreferenceScreen>

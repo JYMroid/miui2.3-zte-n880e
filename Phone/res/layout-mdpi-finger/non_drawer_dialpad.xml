@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerView android:orientation="vertical" android:id="@id/non_drawer_dtmf_dialer" android:background="@drawable/dialpad_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="138.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="32.0sp" android:textColor="@color/dtmf_dialer_display_text" android:id="@id/dtmfDialerField" android:background="@null" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:freezesText="true" android:isShowCursorColor="true" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/one" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_1_no_vm" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/two" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_2" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/three" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_3" style="@style/DtmfButtonMdpi" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/four" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_4" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/five" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_5" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/six" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_6" style="@style/DtmfButtonMdpi" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/seven" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_7" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/eight" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_8" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/nine" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_9" style="@style/DtmfButtonMdpi" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/star" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_star" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/zero" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_0" style="@style/DtmfButtonMdpi" />
+            <ImageButton android:id="@id/pound" android:background="@drawable/dtmf_btn_dial" android:src="@drawable/dtmf_dial_num_pound" style="@style/DtmfButtonMdpi" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.phone.DTMFTwelveKeyDialerView>

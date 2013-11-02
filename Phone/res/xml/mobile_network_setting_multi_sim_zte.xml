@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mobile_network_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/network_manage_settings_1" android:key="button_settings_manage_sub_1">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/network_manage_settings_2" android:key="button_settings_manage_sub_2">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/title_data_settings" android:key="category_data_settings">
+        <CheckBoxPreference android:persistent="false" android:title="@string/data_enabled" android:key="button_data_enabled_key" android:summary="@string/data_enable_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/roaming" android:key="button_roaming_key" android:summaryOn="@string/roaming_enable" android:summaryOff="@string/roaming_disable" />
+        <PreferenceScreen android:persistent="false" android:title="@string/throttle_data_usage" android:key="button_data_usage_key">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.DataUsage" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="false" android:title="@string/gprs_title" android:key="button_gprs_key" android:summary="@string/gprs_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>
