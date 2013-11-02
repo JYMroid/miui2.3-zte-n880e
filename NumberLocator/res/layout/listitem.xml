@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/MyListItem" android:padding="10.0px" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textSize="20.0dip" android:id="@id/ItemTitle" android:padding="3.0dip" android:focusable="false" android:layout_width="100.0dip" android:layout_height="fill_parent" android:editable="false" />
+        <TextView android:textSize="20.0dip" android:textColor="@drawable/black" android:id="@id/ItemText" android:background="@drawable/gray" android:padding="3.0dip" android:focusable="false" android:layout_width="220.0dip" android:layout_height="fill_parent" android:editable="false" />
+    </TableRow>
+</TableLayout>

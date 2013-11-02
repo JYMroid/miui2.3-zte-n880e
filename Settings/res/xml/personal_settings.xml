@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/personal_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@null">
+        <com.android.settings.IconPreferenceScreen android:title="@string/sound_settings_title" settings:icon="@drawable/ic_settings_sound">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SoundSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/customized_theme_title" settings:icon="@drawable/ic_settings_customized_theme">
+            <intent android:targetPackage="com.android.thememanager" android:action="android.intent.action.MAIN" android:targetClass="com.android.thememanager.ThemeResourceTabActivity" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/launcher_settings_title" android:key="launcher_settings" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.android.launcher" android:action="android.intent.action.MAIN" android:targetClass="com.android.launcher2.LauncherPreferenceActivity" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/status_bar_toggle_settings" android:key="status_bar_toggle_settings" settings:icon="@drawable/ic_settings_status_bar_toggle">
+            <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.toggles.ToggleSettings" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@null">
+        <com.android.settings.IconPreferenceScreen android:title="@string/personal_password_title" android:key="personal_password" settings:icon="@drawable/ic_settings_password">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ChooseLockGeneric" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/privacy_settings" android:key="privacy_settings" settings:icon="@drawable/ic_settings_privacy">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.PrivacySettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/security_settings_title" android:key="security_settings" settings:icon="@drawable/ic_settings_security">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SecuritySettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/sync_settings_title" android:key="sync_settings" settings:icon="@drawable/ic_settings_sync">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

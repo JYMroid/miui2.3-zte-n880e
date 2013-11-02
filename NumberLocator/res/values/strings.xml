@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location of number Query</string>
+    <string name="phonenum">number</string>
+    <string name="clear">clear</string>
+    <string name="cardtype">card type</string>
+    <string name="cityname">city name</string>
+    <string name="areacode">area code</string>
+    <string name="fixedPhone">固话或小灵通</string>
+    <string name="intlPhone">国际电话</string>
+    <string name="errorPhone">Incorrect number or Unknown area</string>
+    <string name="inputhinttext">Input phone number</string>
+    <string name="lawinfo">Warning:Free data,we are not responsible for the wrong result.</string>
+    <string name="smart_ip_dial">Smart IP dial</string>
+    <string name="phone_num">Set own number or area code</string>
+    <string name="dlg_phone_num">Input own number or area code</string>
+    <string name="ip_num">Set IP number</string>
+    <string name="dlg_ip_num">Input IP number</string>
+    <string name="ip_dial">Smart IP dial</string>
+    <string name="selectContact">select contact</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="change_num">Update</string>
+    <string name="ip_dial_open">open smart IP dial</string>
+    <string name="ip_dial_close">close smart IP dial</string>
+    <string name="wrong_number">can not find your number attribution!Please input again.</string>
+    <string name="wrong_ip_number">wrong IP number!Please input again.</string>
+    <string name="phone_num_not_set_sum">not set area code</string>
+    <string name="phone_num_sum">area code is:%s</string>
+    <string name="ip_num_not_set_sum">not set IP number</string>
+    <string name="ip_num_sum">IP number is:%s</string>
+    <string name="open_ipdail_warning">IP smart dialer which is according to the database of phone number location may not work occasionally, do you continue?</string>
+    <string name="update_db">Update</string>
+    <string name="update_db_confirm">This action will cost your data usage, do you really want to continue?</string>
+    <string name="update_apk_reconfirm">There is a new version Application, do you want to download?</string>
+    <string name="update_db_reconfirm">There is a new version Database, do you want to download?</string>
+    <string name="downloading_what">Downloading %s...</string>
+    <string name="nothing_to_be_updated">Nothing need to be updated,you have got the latest version.</string>
+    <string name="update_success">Update success.</string>
+    <string name="download_sdcard_busy_dlg_msg">The SD card is busy. To allow downloads, select \"Turn off USB storage\" in the notification.</string>
+    <string name="download_no_sdcard_dlg_msg">SD card is required to download.</string>
+    <string name="download_failed">Download failed, network problem?</string>
+</resources>

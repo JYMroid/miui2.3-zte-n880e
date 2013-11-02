@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/profile_applist_title" android:key="profile_applist_title" />
+    <PreferenceCategory android:title="@string/profile_applist_manage" android:key="profile_applist_manage" />
+    <PreferenceScreen android:title="@string/profile_add_app" android:key="profile_add_app" />
+    <PreferenceScreen android:title="@string/profile_delete_appgroup" android:key="profile_delete_appgroup" />
+</PreferenceScreen>

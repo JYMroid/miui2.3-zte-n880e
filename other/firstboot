@@ -1,0 +1,22 @@
+#!/system/bin/sh
+#Hundan@Rogue
+
+if [ ! -e /data/.notfirstrun ]
+then
+    APKLIST=`ls /system/firstboot/*.apk`
+    for INFILES in $APKLIST
+    do
+      echo  setup package:$INFILES
+      pm install -r $INFILES
+    done
+
+    APKLIST=`ls /sdcard/firstboot/*.apk`
+    for INFILES in $APKLIST
+    do
+      echo  setup package:$INFILES
+      pm install -r $INFILES
+    done
+    busybox touch /data/.notfirstrun	
+fi
+
+exit

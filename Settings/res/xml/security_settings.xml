@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/location_title" android:key="location_category">
+        <CheckBoxPreference android:title="@string/location_network_based" android:key="location_network" android:summaryOn="@string/location_neighborhood_level" android:summaryOff="@string/location_networks_disabled" />
+        <CheckBoxPreference android:title="@string/location_gps" android:key="location_gps" android:summaryOn="@string/location_street_level" android:summaryOff="@string/location_gps_disabled" />
+        <ListPreference android:entries="@array/location_entries_gps_source" android:title="@string/location_gps_source_title" android:key="location_gps_source" android:summary="@string/location_gps_source_summary" android:dialogTitle="@string/location_gps_source_title" android:entryValues="@array/location_values_gps_source" />
+    </PreferenceCategory>
+</PreferenceScreen>

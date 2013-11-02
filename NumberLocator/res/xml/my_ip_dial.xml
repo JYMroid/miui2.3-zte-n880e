@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_ip_dial"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/zte.com.cn.numberlocator">
+    <zte.com.cn.numberlocator.EditTextNumberPreference android:singleLine="true" android:title="@string/phone_num" android:key="ip_dial1" android:dialogTitle="@string/dlg_phone_num" />
+    <zte.com.cn.numberlocator.EditTextNumberPreference android:title="@string/ip_num" android:key="ip_dial2" android:dialogTitle="@string/dlg_ip_num" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/ip_dial" android:key="button_ipdial_key" />
+</PreferenceScreen>

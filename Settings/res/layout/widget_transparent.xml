@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/main" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w1" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w1" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w2" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w2" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w3" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w3" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w4" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w4" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w5" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w5" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w6" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w6" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w7" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w7" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w8" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w8" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w9" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/sep_w9" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_w10" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_w10" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ind_w10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

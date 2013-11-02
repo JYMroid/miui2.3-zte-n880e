@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:key="network">
+        <com.android.settings.IconCheckBoxPreference android:persistent="false" android:title="@string/airplane_mode" android:key="toggle_airplane" android:summary="@string/airplane_mode_summary" android:disableDependentsState="true" settings:image="@drawable/ic_settings_airplane" />
+        <com.android.settings.IconPreferenceScreen android:title="@string/wifi_settings_title" android:key="wifi_settings" settings:icon="@drawable/ic_settings_wireless">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wifi.WifiSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/bluetooth_settings_title" android:key="bluetooth_settings" settings:icon="@drawable/ic_settings_bluetooth">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.bluetooth.BluetoothSettings" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.android.settings.IconPreferenceScreen android:title="@string/wallpaper_settings_title" settings:icon="@drawable/ic_settings_wallpaper">
+            <intent android:targetPackage="com.android.thememanager" android:action="android.intent.action.MAIN" android:targetClass="com.android.thememanager.WallpaperSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/display_settings_title" settings:icon="@drawable/ic_settings_display">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DisplaySettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/call_settings_title" android:key="call_settings" settings:icon="@drawable/ic_settings_phone">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/browser_settings_title" android:key="browser_settings" settings:icon="@drawable/ic_settings_browser">
+            <intent android:targetPackage="com.android.browser" android:action="android.intent.action.MAIN" android:targetClass="com.android.browser.BrowserPreferencesPage" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/mms_settings_title" android:key="mms_settings" settings:icon="@drawable/ic_settings_sms">
+            <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.ui.MessagingPreferenceActivity" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

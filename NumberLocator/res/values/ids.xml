@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="MyListItem">false</item>
+    <item type="id" name="ItemTitle">false</item>
+    <item type="id" name="ItemText">false</item>
+    <item type="id" name="RelativeLayout01">false</item>
+    <item type="id" name="NumInput">false</item>
+    <item type="id" name="ClearButton">false</item>
+    <item type="id" name="error_number">false</item>
+    <item type="id" name="ListViewlocator">false</item>
+    <item type="id" name="lawinfo">false</item>
+    <item type="id" name="lawText">false</item>
+    <item type="id" name="TextViewNum">false</item>
+    <item type="id" name="TextPhonenum">false</item>
+    <item type="id" name="TextCityname">false</item>
+    <item type="id" name="TextAreacode">false</item>
+    <item type="id" name="number_field">false</item>
+    <item type="id" name="edit_container">false</item>
+    <item type="id" name="select_contact">false</item>
+</resources>

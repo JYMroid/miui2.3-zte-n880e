@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/program_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory>
+        <com.android.settings.IconPreferenceScreen android:title="@string/applications_settings" android:key="applications_settings" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ApplicationSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/install_development_settings_title" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DevelopmentSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/manage_applications_title" settings:icon="@drawable/ic_settings_manage_application">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ManageApplications" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory>
+        <com.android.settings.IconPreferenceScreen android:title="@string/call_settings_title" android:key="call_settings" settings:icon="@drawable/ic_settings_phone">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/mms_settings_title" android:key="mms_settings" settings:icon="@drawable/ic_settings_sms">
+            <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.ui.MessagingPreferenceActivity" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/browser_settings_title" android:key="browser_settings" settings:icon="@drawable/ic_settings_browser">
+            <intent android:targetPackage="com.android.browser" android:action="android.intent.action.MAIN" android:targetClass="com.android.browser.BrowserPreferencesPage" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/calendar_settings_title" android:key="calendar_settings" settings:icon="@drawable/ic_settings_calendar">
+            <intent android:targetPackage="com.android.calendar" android:action="android.intent.action.MAIN" android:targetClass="com.android.calendar.CalendarPreferenceActivity" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>-->
+
+    <PreferenceCategory>
+        <com.android.settings.IconPreferenceScreen android:title="@string/system_category_title_cm_other" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.android.spare_parts" android:action="android.intent.action.MAIN" android:targetClass="com.android.spare_parts.SpareParts" />
+        </com.android.settings.IconPreferenceScreen>
+
+        <!--<com.android.settings.IconPreferenceScreen android:title="@string/superuser_title" android:key="superuser" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.mokeetek.su" android:action="android.intent.action.MAIN" android:targetClass="com.mokeetek.su.Su" />
+        </com.android.settings.IconPreferenceScreen>
+
+        <com.android.settings.IconPreferenceScreen android:title="@string/swapper_settings_title" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.lewatek.swapper" android:action="android.intent.action.MAIN" android:targetClass="com.lewatek.swapper.Swapper" />
+        </com.android.settings.IconPreferenceScreen>-->
+    </PreferenceCategory>
+</PreferenceScreen>

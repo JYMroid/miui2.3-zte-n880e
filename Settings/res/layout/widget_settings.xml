@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/main" android:background="@drawable/appwidget_bg" android:layout_width="fill_parent" android:layout_height="72.0dip" android:minHeight="72.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_1" android:background="@drawable/appwidget_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_appwidget_settings_wifi_on" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/appwidget_settings_ind_on_l" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_1" android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_2" android:background="@drawable/appwidget_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_appwidget_settings_bluetooth_on" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/appwidget_settings_ind_on_c" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_2" android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_3" android:background="@drawable/appwidget_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_appwidget_settings_gps_on" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/appwidget_settings_ind_on_c" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_3" android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_4" android:background="@drawable/appwidget_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_appwidget_settings_data_on" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/appwidget_settings_ind_on_c" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_4" android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_5" android:background="@drawable/appwidget_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_appwidget_settings_sync_on" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/appwidget_settings_ind_on_c" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_5" android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_6" android:background="@drawable/appwidget_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_appwidget_settings_brightness_on" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/appwidget_settings_ind_on_r" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_6" android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_7" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_7" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_8" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_8" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_9" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageView android:id="@id/sep_9" android:background="@drawable/appwidget_settings_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_10" android:background="@drawable/appwidget_button_center" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_10" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ind_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/okbutton" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/ok" />
+        <Button android:id="@id/cancelbutton" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/cancel" />
+    </LinearLayout>
+    <View android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <ScrollView android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:id="@id/possibleButtons" android:text="@string/possibleButtons" style="?android:listSeparatorTextViewStyle" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleWifi" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleWifiDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:id="@id/toggleWifiApPreference" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleWifiAp" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleWifiApDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleWifiAp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:id="@id/toggleWifiApPreferenceDivider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleBluetooth" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleBluetoothDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleBluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleGPS" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleGPSDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleGPS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleData" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleDataDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggle2g3g" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggle2g3gDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggle2g3g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:id="@id/toggleWimaxPreference" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleWimax" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleWimaxDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleWimax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:id="@id/toggleWimaxPreferenceDivider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleSync" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleSyncDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleSync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleSound" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleSoundDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleSound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleScreenTimeout" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleScreenTimeoutDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleScreenTimeout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleAutoRotate" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleAutoRotateDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleAutoRotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleBrightness" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleBrightnessDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleBrightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleFlashlight" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleFlashlightDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleFlashlight" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleLockScreen" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleLockScreenDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleLockScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleAirplane" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/toggleAirplaneDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/toggleAirplane" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:id="@id/widgetSettings" android:text="@string/settings_label" style="?android:listSeparatorTextViewStyle" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/useVertical" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/useVerticalDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/useVertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/backgroundImageSpinner" android:layout_weight="1.0" />
+            <Spinner android:id="@id/backgroundImageSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/backgroundImageSpinner" />
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/useRoundCorners" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/useRoundCornersDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/useRoundCorners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:id="@id/wifiSettings" android:text="@string/wifiSettings" style="?android:listSeparatorTextViewStyle" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisableSyncWithWifi" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisableSyncWithWifiDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoDisableSyncWithWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnableSyncWithWifi" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnableSyncWithWifiDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoEnableSyncWithWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisable3GWithWifi" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisable3GWithWifiDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoDisable3GWithWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnable3GWithWifi" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnable3GWithWifiDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoEnable3GWithWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:id="@id/dataSettings" android:text="@string/dataSettings" style="?android:listSeparatorTextViewStyle" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisable3G" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisable3GDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoDisable3G" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnable3G" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnable3GDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoEnable3G" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:id="@id/poweSettings" android:text="@string/powerSettings" style="?android:listSeparatorTextViewStyle" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnableBluetoothWithPower" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnableBluetoothWithPowerDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoEnableBluetoothWithPower" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisableBluetoothWithPower" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisableBluetoothWithPowerDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoDisableBluetoothWithPower" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnableWifiWithPower" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoEnableWifiWithPowerDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoEnableWifiWithPower" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisableWifiWithPower" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/autoDisableWifiWithPowerDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/autoDisableWifiWithPower" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:id="@id/generalSettings" android:text="@string/generalSettings" style="?android:listSeparatorTextViewStyle" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/monitorDataRoaming" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/monitorDataRoamingDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/monitorDataRoaming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ringModeVibrateAsOn" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ringModeVibrateAsOnDescription" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <CheckBox android:id="@id/ringModeVibrateAsOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/networkModeSpinner" android:layout_weight="1.0" />
+            <Spinner android:id="@id/networkModeSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/networkModeSpinner" />
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ringModeSpinner" android:layout_weight="1.0" />
+            <Spinner android:id="@id/ringModeSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/ringModeSpinner" />
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/brightnessSpinner" android:layout_weight="1.0" />
+            <Spinner android:id="@id/brightnessSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/brightnessSpinner" />
+            <View android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/screenTimeoutSpinner" android:layout_weight="1.0" />
+            <Spinner android:id="@id/screenTimeoutSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/screenTimeoutSpinner" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

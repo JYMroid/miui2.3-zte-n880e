@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/profile_appgroups_title" android:key="profile_appgroups_title" />
+    <PreferenceScreen android:title="@string/menu_appgroups" android:key="menu_appgroups">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.AppGroupList" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/profile_title" android:key="profile_title" />
+    <PreferenceCategory android:title="@string/profile_manage" android:key="profile_manage" />
+    <PreferenceScreen android:title="@string/menu_new_profile" android:summary="@string/menu_new_profile_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ProfileConfig" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/profile_reset_title" android:key="profile_reset">
+        <Preference android:persistent="false" android:title="@string/profile_reset_all_title" android:key="profile_reset_all" android:summary="@string/profile_reset_all_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

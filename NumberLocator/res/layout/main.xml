@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/RelativeLayout01" android:padding="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@id/NumInput" android:layout_width="240.0dip" android:layout_height="wrap_content" android:singleLine="true" android:numeric="integer" />
+        <Button android:id="@id/ClearButton" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/clear" android:layout_toRightOf="@id/NumInput" />
+    </RelativeLayout>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow>
+            <TextView android:id="@id/TextViewNum" android:padding="3.0dip" android:text="@string/phonenum" />
+            <EditText android:id="@id/TextPhonenum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3.0dip" android:text="@string/cityname" />
+            <EditText android:id="@id/TextCityname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3.0dip" android:text="@string/areacode" />
+            <EditText android:id="@id/TextAreacode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

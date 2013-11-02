@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="state_encrypted" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="preview" format="reference" />
+    <attr name="indicator" format="reference" />
+    <attr name="image" format="reference" />
+</resources>

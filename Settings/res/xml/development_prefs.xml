@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/development_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/enable_adb" android:key="enable_adb" android:summary="@string/enable_adb_summary" />
+    <CheckBoxPreference android:title="@string/adb_over_network" android:key="adb_over_network" android:summary="@string/adb_over_network_summary" android:dependency="enable_adb" />
+    <CheckBoxPreference android:title="@string/adb_notify" android:key="adb_notify" android:summary="@string/adb_notify_summary" android:dependency="enable_adb" />
+    <CheckBoxPreference android:title="@string/keep_screen_on" android:key="keep_screen_on" android:summary="@string/keep_screen_on_summary" />
+    <CheckBoxPreference android:title="@string/allow_mock_location" android:key="allow_mock_location" android:summary="@string/allow_mock_location_summary" />
+    <CheckBoxPreference android:title="@string/kill_app_longpress_back" android:key="kill_app_longpress_back" android:summary="@string/kill_app_longpress_back_summary" />
+    <com.android.settings.HostnamePreference android:persistent="false" android:selectAllOnFocus="true" android:title="@string/device_hostname" android:key="device_hostname" android:dialogTitle="@string/device_hostname" android:positiveButtonText="@string/hostname_save" android:negativeButtonText="@string/hostname_cancel" android:inputType="text" android:imeOptions="actionDone" />
+</PreferenceScreen>

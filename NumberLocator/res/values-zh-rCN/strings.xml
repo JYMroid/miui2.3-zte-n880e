@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">号码归属地查询</string>
+    <string name="phonenum">电话号码</string>
+    <string name="clear">清除</string>
+    <string name="cardtype">号码类型</string>
+    <string name="cityname">所属城市</string>
+    <string name="areacode">城市区号</string>
+    <string name="fixedPhone">固话或小灵通</string>
+    <string name="intlPhone">国际号码</string>
+    <string name="errorPhone">提示：号码格式不正确或号码所属地区未知!</string>
+    <string name="inputhinttext">请输入电话号码</string>
+    <string name="lawinfo">敬告：归属地查询数据库为免费数据，非由本公司提供，如因数据库更新不及时或其它原因导致归属地信息不准确，本公司不承担任何责任。</string>
+    <string name="smart_ip_dial">智能IP拨号</string>
+    <string name="phone_num">设置本机号码或区号</string>
+    <string name="dlg_phone_num">输入本机号码或区号</string>
+    <string name="ip_num">设置IP前缀</string>
+    <string name="dlg_ip_num">输入IP前缀</string>
+    <string name="ip_dial">智能IP自动拨号</string>
+    <string name="selectContact">选择联系人</string>
+    <string name="enable">启用</string>
+    <string name="disable">禁用</string>
+    <string name="change_num">更新</string>
+    <string name="ip_dial_open">已开启智能IP自动拨号</string>
+    <string name="ip_dial_close">已关闭智能IP自动拨号</string>
+    <string name="wrong_number">未能找到您的号码归属地!请重新输入.</string>
+    <string name="wrong_ip_number">IP号码错误!请重新输入.</string>
+    <string name="phone_num_not_set_sum">未设置区号</string>
+    <string name="phone_num_sum">区号为：%s</string>
+    <string name="ip_num_not_set_sum">未设置IP号码</string>
+    <string name="ip_num_sum">IP号码为：%s</string>
+    <string name="open_ipdail_warning">IP智能拨号功能运行将参照号码归属地查询信息为依据，可能偶然出现个别电话不能正确加拨IP，是否继续？</string>
+    <string name="update_db">检查更新</string>
+    <string name="update_db_confirm">这将消耗你的数据流量，确定要检查更新吗？</string>
+    <string name="update_apk_reconfirm">有新版本可用，要下载吗</string>
+    <string name="update_db_reconfirm">有新版本数据库，要下载吗?</string>
+    <string name="downloading_what">正在下载%s...</string>
+    <string name="nothing_to_be_updated">不需要更新，当前版本已经是最新版本.</string>
+    <string name="update_success">更新成功.</string>
+    <string name="download_sdcard_busy_dlg_msg">SD卡正忙. 请在通知栏选择\"关闭USB存储设备\"</string>
+    <string name="download_no_sdcard_dlg_msg">下载时需要SD卡</string>
+    <string name="download_failed">无法下载，网络不给力吗?</string>
+</resources>

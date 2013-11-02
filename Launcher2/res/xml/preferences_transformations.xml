@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <miui.preference.CheckBoxPreferenceCategory android:title="@string/pref_screen_transformation_type_title" android:key="pref_screen_transformation_type"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_classic" android:key="pref_key_transformation_classic" android:defaultValue="true" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_classic_no_overshoot" android:key="pref_key_transformation_classic_no_overshoot" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_crossfade" android:key="pref_key_transformation_corss_fade" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_falldown" android:key="pref_key_transformation_fall_down" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_leftpage" android:key="pref_key_transformation_left_page" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_stack" android:key="pref_key_transformation_stack" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_rotate" android:key="pref_key_transformation_rotate" />
+        <miui.preference.RadioButtonPreference android:title="@string/transformation_type_cube" android:key="pref_key_transformation_cube" />
+    </miui.preference.CheckBoxPreferenceCategory>
+</PreferenceScreen>

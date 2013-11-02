@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_settings_tab" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@null" android:key="network">
+        <com.android.settings.IconPreferenceScreen android:title="@string/vpn_settings_title" settings:icon="@drawable/ic_settings_vpn">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.vpn.VpnSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/network_share_settings_title" settings:icon="@drawable/ic_settings_share">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TetherSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/carrier_settings_title" android:key="carrier_settings" settings:icon="@drawable/ic_settings_carrier">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@null">
+        <com.android.settings.IconPreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/device_status" android:key="status_info" settings:icon="@drawable/ic_settings_applications">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@null">
+        <com.android.settings.IconPreferenceScreen android:title="@string/date_and_time_settings_title" settings:icon="@drawable/ic_settings_date_time">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DateTimeSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/language_settings_title" settings:icon="@drawable/ic_settings_language">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LanguageSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/voice_input_output_settings" settings:icon="@drawable/ic_settings_speech">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.VoiceInputOutputSettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/storage_settings_title" settings:icon="@drawable/ic_settings_storage">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Memory" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/accessibility_settings" settings:icon="@drawable/ic_settings_accessibility">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.AccessibilitySettings" />
+        </com.android.settings.IconPreferenceScreen>
+        <com.android.settings.IconPreferenceScreen android:title="@string/about_settings" settings:icon="@drawable/ic_settings_about">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DeviceInfoSettings" />
+        </com.android.settings.IconPreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
